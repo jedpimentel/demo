@@ -1,0 +1,26 @@
+when demoing stuff, maybe it would be distracting if users could walk in front of others
+
+
+There are many diffeent ways to communicate over websockets.
+JSON is less efficient than datagrams, yes.
+
+I'm using ChatGPT for drafting, so there's going to be some weirdness in the code.
+I'd like to make all my real source code freely available on the internet, but no.
+
+I'm mostly re-doing stuff i've already made, but I don't want to necessarily remake eveerything.
+
+
+TODO:
+initial installation should also copy the AFRAME dist files into 'public'
+ports being referenced in server.js et al should be encapsulated in a consts file
+
+==== journal ====
+2023-10-11
+The ChatGPT reference introduced the weirdest stuff, but was a useful enough starting point.
+
+2023-10-12
+ChatGPT bugs are astonishingly esoteric.
+The websocket takes an unusual time to fire an onopen event, everything is so slow.
+I know there are some optimizations I'm missing, maybe they're worth sharing.
+
+
